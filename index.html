@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gozo Festival 2025</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./assets/oGozo-logo.png" alt="Gozo logo" class="logo">
+        <button class="notify-btn" id="notifyBtn">
+            <img src="assets/campana_icon.svg" alt="Notificación"> Avísame
+        </button>
+    </header>
+
+    <main class="main">
+        <section class="countdown-section">
+            <h1 class="title">Próximamente</h1>
+            <p class="subtitle">CICLO DE CONCIERTOS INTERNACIONALES EN GALICIA</p>
+            <button class="cta-btn">MERCAR ENTRADA</button>
+            <div class="countdown">
+                <div><span id="days">14</span>
+                    <p>Días</p>
+                </div>
+                <div><span id="hours">07</span>
+                    <p>Horas</p>
+                </div>
+                <div><span id="minutes">45</span>
+                    <p>Minutos</p>
+                </div>
+                <div><span id="seconds">19</span>
+                    <p>Segundos</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="poster-section">
+            <img src="./assets/david-guetta.jpg" alt="David Guetta Poster" class="poster">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img src="./assets/yt_icon.svg" alt="YouTube">
+        <img src="./assets/fb_icon.svg" alt="Facebook">
+        <img src="./assets/ig_icon.svg" alt="Instagram">
+    </footer>
+
+    <!-- Modal -->
+    <div id="emailModal">
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <h2>Déjanos tu correo</h2>
+                <input type="email" placeholder="Correo electrónico">
+                <button>Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
